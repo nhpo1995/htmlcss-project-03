@@ -107,7 +107,7 @@ a {
     display: flex;
 }
 
-.action__log-in,
+.header-action__log-in,
 .navbar__link {
     color: #c9d2da;
     font-weight: 300;
@@ -115,7 +115,7 @@ a {
     padding: 4px 21px;
 }
 
-.action__log-in:hover,
+.header-action__log-in:hover,
 .navbar__link:hover,
 .navbar__link--active {
     text-shadow: 1px 0 0 currentColor;
@@ -133,7 +133,11 @@ a {
     background-color: #fff;
 }
 
-.action__sign-up {
+.header-action__log-in {
+    margin-right: 7px;
+}
+
+.header-action__sign-up {
     --min-width: 104px;
     --height: 44px;
     --border-radius: 22px;
