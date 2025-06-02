@@ -452,6 +452,12 @@ a {
     column-gap: 30px;
 }
 
+.dentist-card:last-child .dentist-card__img {
+    transform: scale(0.95);
+    position: relative;
+    bottom: -10px;
+}
+
 .dentist-card:hover .dentist-card__img {
     transform: scale(1.1);
     cursor: pointer;
@@ -481,9 +487,10 @@ a {
 
 .dentist-card__name {
     color: #10375c;
+    font-family: "Sora", sans-serif;
     text-align: center;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.75;
 }
 
@@ -522,4 +529,45 @@ a {
 
 .dentist__control-icon {
     transform: rotate(180deg);
+}
+
+/* =========== dentist ============= */
+.install__inner {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    border-radius: 4px;
+    margin-top: 180px;
+    padding: 0 70px;
+    background: #2e80ce;
+}
+
+.install__image {
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    object-fit: cover;
+}
+
+.install__heading {
+    max-width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.install__desc {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+    margin-top: 18px;
+}
+
+.install__row {
+    display: flex;
+    gap: 28px;
+    margin-top: 38px;
 }
