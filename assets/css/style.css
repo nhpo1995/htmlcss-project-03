@@ -54,6 +54,10 @@ a {
     letter-spacing: -1px;
 }
 
+.section__heading--mid {
+    text-align: center;
+}
+
 .section__desc {
     color: #575f66;
     font-size: 1.8rem;
@@ -61,6 +65,10 @@ a {
     line-height: 1.67;
     margin-top: 18px;
     width: 468px;
+}
+
+.section__desc--mid {
+    margin: 0 auto;
 }
 
 /* =========== Header ============= */
@@ -420,4 +428,98 @@ a {
 
 .feature__cta {
     margin-top: 38px;
+}
+
+/* =========== dentist ============= */
+.dentist {
+    padding: 85px 0;
+}
+
+.dentist__cta {
+    text-align: center;
+    margin-top: 38px;
+}
+
+.dentist__btn {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.dentist__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.dentist-card:hover .dentist-card__img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.dentist-card__image {
+    display: flex;
+    align-items: flex-end;
+    height: 318px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #eaf6ff;
+    padding-top: 28px;
+}
+
+.dentist-card__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.dentist-card__body {
+    padding: 12px 18px;
+}
+
+.dentist-card__name {
+    color: #10375c;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.dentist-card__info {
+    color: #575f66;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.85;
+}
+
+.dentist__control {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 38px;
+}
+
+.dentist__control-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    color: #575f66;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dentist__control-btn:hover {
+    background-color: #2e80ce;
+    border-color: #2e80ce;
+    color: #fff;
+}
+
+.dentist__control-icon {
+    transform: rotate(180deg);
 }
