@@ -277,6 +277,7 @@ a {
     padding: 22px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.25s;
 }
 
 .service-item:hover {
@@ -303,6 +304,7 @@ a {
     border-radius: 50%;
     background-color: #eff6fd;
     color: #10375c;
+    transition: 0.25s;
 }
 
 .service-item__body {
@@ -322,4 +324,60 @@ a {
     font-weight: 300;
     line-height: 1.75;
     margin-top: 8px;
+}
+
+/* =========== How it work ============= */
+.work {
+    padding: 100px 0;
+    background-color: #f6fbff;
+}
+
+.work__list {
+    margin-top: 86px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.work-item-outer {
+    border-radius: 4px;
+    background-color: #eaf6ff;
+    padding: 16px;
+    transition: 0.25s;
+}
+
+.work-item-outer:hover {
+    background-color: #2e80ce;
+    transform: translateY(-16px);
+}
+
+.work-item {
+    padding: 43px 42px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.work-item__heading {
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    margin-top: 18px;
+}
+
+.work-item__desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 28px;
+}
+
+.work__link {
+    display: inline-block;
+    color: #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 18px;
 }
